@@ -14,7 +14,7 @@
    <table style="width=75%">
 	<tr>
 	 <td> <b> <img src="image/Slow_Dog.gif" alt="Go Slow">  </b> </td>
-	 <td> <b> <img src="image/Super_Fast_Dog.gif" alt="Go Slow">  </b> </td>
+	 <td> <b> <img src="image/Super_Fast_Dog.gif">  </b> </td>
 	</tr>
 	<tr>
 	 <td> <img src="image/Flag.gif" alt="Waving Maple leaf"> </td>
