@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+    <project basedir="." default="build" name="weburl">
+
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="WebContent/image">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <src path="WebContent/image"/>
+            <classpath refid="weburl.classpath"/>
+        </javac>
+    </target>
+
+    <war destfile="war/web.war" webxml="WebContent/WEB-INF/web.xml"> 
+  	<fileset dir="WebContent/image"/>
+  	<fileset dir="WebContent/META-INF"/>
+  	<fileset dir="WebContent/"/>
+  	<classes dir="build"/>
+
+  	<zipfileset dir="WebContent/image/gif" prefix="image"/> 
+
+    </war>
+
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+
+</project>
