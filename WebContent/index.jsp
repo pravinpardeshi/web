@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Maple leaf</title>
+<title>Sample Web application</title>
 
 </head>
 <body>
