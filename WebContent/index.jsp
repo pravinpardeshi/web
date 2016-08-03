@@ -15,7 +15,10 @@
 	<tr>
 	 <td> <b> <img src="image/Slow_Dog.gif" alt="Go Slow">  </b> </td>
 	 <td> <b> <img src="image/Super_Fast_Dog.gif" alt="Go Slow">  </b> </td>
-	 <td> <img src="image/Waving_Flag.gif" alt="Waving Maple leaf" height="200" width="350"> </td> 
+	</tr>
+	<tr>
+	 <td> <img src="image/Flag.gif" alt="Waving Maple leaf"> </td>
+	 <td> <img src="image/Waving_Flag.gif" alt="Waving Maple leaf"></td> 
 	</tr>
    </table>
 </body>
