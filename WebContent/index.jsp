@@ -11,10 +11,10 @@
 <body>
 
 <body bgcolor="white">
-   <table style="width=75%">
+   <table style="width=100%">
 	<tr>
-	 <td><img src="image/Slow_Dog.gif"></td>
 	 <td><img src="image/Super_Fast_Dog.gif"> </td>
+ 	 <td><img src="image/Slow_Dog.gif"> </td>
 	</tr>
 	<tr>
 	 <td> <img src="image/Flag.gif"></td>
