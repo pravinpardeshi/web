@@ -14,7 +14,7 @@
    <table style="width=75%">
 	<tr>
 	 <td><img src="image/Super_Fast_Dog.gif">---<img src="image/Slow_Dog.gif"> 
-	 <img src="image/Dog Bone.png" height="150" width="200"></td>
+	 <img src="image/Dog Bone.png" height="100" width="130"></td>
 	</tr>
    </table>
 </body>
