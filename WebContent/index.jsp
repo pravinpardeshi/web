@@ -13,7 +13,8 @@
 <body bgcolor="white">
    <table style="width=75%">
 	<tr>
-	 <td><img src="image/Super_Fast_Dog.gif">---<img src="image/Slow_Dog.gif"> <img src="image/Dog Bone.png"></td>
+	 <td><img src="image/Super_Fast_Dog.gif">---<img src="image/Slow_Dog.gif"> 
+	 <img src="image/Dog Bone.png" height="200" width="300"></td>
 	</tr>
    </table>
 </body>
